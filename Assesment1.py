@@ -20,6 +20,8 @@ t.dot(7)
 t.speed(10)
 t.pendown()
 
+#Ground
+
 t.fillcolor("green")
 t.begin_fill()
 t.forward(SCREEN_WIDTH)
@@ -40,7 +42,9 @@ t.forward(60)
 t.left(90)
 t.pendown()
 
-t.fillcolor("purple")
+#Base
+
+t.fillcolor("pink")
 t.begin_fill()
 t.forward(300)
 t.left(90)
@@ -55,6 +59,8 @@ t.penup()
 t.left(90)
 t.forward(125)
 
+#Door
+
 t.pendown()
 t.fillcolor("brown")
 t.begin_fill()
@@ -68,6 +74,8 @@ t.forward(100)
 t.left(90)
 t.end_fill()
 t.penup()
+
+#Window1
 
 t.left(90)
 t.forward(200)
@@ -88,6 +96,8 @@ t.penup()
 t.right(90)
 t.forward(50)
 
+#Window2
+
 t.pendown()
 t.begin_fill()
 t.forward(75)
@@ -105,6 +115,8 @@ t.forward(125)
 t.left(90)
 t.forward(100)
 
+#Roof
+
 t.pendown()
 t.fillcolor("red")
 t.begin_fill()
@@ -121,6 +133,8 @@ t.end_fill()
 t.penup()
 t.forward(50)
 
+#Chimney 
+
 t.pendown()
 t.fillcolor("black")
 t.begin_fill()
@@ -134,4 +148,5 @@ t.left(45)
 t.forward(45)
 t.end_fill()
 #End program
+t.hideturtle()
 t.done()
